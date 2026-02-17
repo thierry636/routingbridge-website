@@ -35,11 +35,11 @@ export default function Header() {
         {/* Desktop CTAs */}
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher />
-          <a href="/app/login" className="text-sm font-medium text-gray-600 transition hover:text-gray-900">
+          <a href="https://app.routing-bridge.com/login" className="text-sm font-medium text-gray-600 transition hover:text-gray-900">
             {t('header.login')}
           </a>
           <a
-            href="/app/signup"
+            href="https://app.routing-bridge.com/register"
             className="rounded-lg bg-primary-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
           >
             {t('header.signup')}
@@ -72,10 +72,10 @@ export default function Header() {
           ))}
           <div className="mt-3 flex flex-col gap-2">
             <LanguageSwitcher />
-            <a href="/app/login" className="rounded-lg border border-gray-200 px-4 py-2 text-center text-sm font-medium text-gray-700 transition hover:bg-gray-50">
+            <a href="https://app.routing-bridge.com/login" className="rounded-lg border border-gray-200 px-4 py-2 text-center text-sm font-medium text-gray-700 transition hover:bg-gray-50">
               {t('header.login')}
             </a>
-            <a href="/app/signup" className="rounded-lg bg-primary-600 px-4 py-2 text-center text-sm font-semibold text-white transition hover:bg-primary-700">
+            <a href="https://app.routing-bridge.com/register" className="rounded-lg bg-primary-600 px-4 py-2 text-center text-sm font-semibold text-white transition hover:bg-primary-700">
               {t('header.signup')}
             </a>
           </div>
