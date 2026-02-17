@@ -1,29 +1,7 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
-
-const faqs = [
-  {
-    q: "Est-ce qu'il faut une application chauffeur ?",
-    a: "Non. Le chauffeur reçoit un simple lien web qu'il ouvre dans son navigateur (Chrome, Safari…). Pas d'app à télécharger, pas de compte à créer.",
-  },
-  {
-    q: "Le partage via WhatsApp est-il payant ?",
-    a: "Non. Routing utilise le partage natif de WhatsApp (via lien web ou mobile). Il n'y a aucune API payante, aucun surcoût.",
-  },
-  {
-    q: "Peut-on importer depuis Excel ?",
-    a: "Oui, via un export CSV depuis Excel. Routing accepte les fichiers CSV avec adresses ou coordonnées GPS.",
-  },
-  {
-    q: "Comment fonctionne la géolocalisation ?",
-    a: "Quand le chauffeur ouvre son lien de tournée, il peut partager sa position GPS (avec sa permission). Vous voyez alors sa progression en temps réel sur la carte.",
-  },
-  {
-    q: "Peut-on annuler à tout moment ?",
-    a: "Oui. L'abonnement est sans engagement. Vous pouvez annuler depuis votre espace client, et l'accès reste actif jusqu'à la fin du mois payé.",
-  },
-]
 
 function FAQItem({ faq }) {
   const [open, setOpen] = useState(false)
@@ -60,18 +38,21 @@ function FAQItem({ faq }) {
 }
 
 export default function FAQ() {
+  const { t } = useTranslation()
+  const faqs = t('faq.items', { returnObjects: true })
+
   return (
     <section id="faq" className="bg-white py-20 sm:py-28">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Questions fréquentes
+            {t('faq.title')}
           </h2>
         </div>
 
         <div className="mt-12">
-          {faqs.map((faq) => (
-            <FAQItem key={faq.q} faq={faq} />
+          {faqs.map((faq, i) => (
+            <FAQItem key={i} faq={faq} />
           ))}
         </div>
       </div>

@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Optimisez vos tournées en quelques secondes",
+    "description": "RoutingBridge : planifiez, optimisez et partagez vos tournées de livraison. Import CSV, carte interactive, partage chauffeur via WhatsApp, suivi temps réel. 14,90 €/véhicule/mois."
+  },
+  "header": {
+    "home": "RoutingBridge — Accueil",
+    "nav": {
+      "product": "Produit",
+      "features": "Fonctionnalités",
+      "pricing": "Tarifs",
+      "faq": "FAQ"
+    },
+    "login": "Se connecter",
+    "signup": "Démarrer l'essai",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "mainNav": "Navigation principale",
+    "mobileNav": "Navigation mobile"
+  },
+  "hero": {
+    "badge": "14,90 € / véhicule / mois · Annulable à tout moment",
+    "title": "Optimisez vos tournées en quelques secondes.",
+    "description": "Importez vos ordres, planifiez sur la carte, partagez aux chauffeurs via WhatsApp, suivez en temps réel.",
+    "cta": "Démarrer l'essai",
+    "demo": "Voir une démo",
+    "mockup": {
+      "optimizedRoute": "Tournée optimisée",
+      "routeStats": "3 arrêts · 12,4 km · 28 min",
+      "status": "En cours"
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "subtitle": "Trois étapes pour passer de vos ordres à la livraison.",
+    "steps": [
+      {
+        "title": "1. Importez vos ordres",
+        "desc": "Import CSV ou création manuelle en quelques clics.",
+        "benefit": "Fini la saisie répétitive."
+      },
+      {
+        "title": "2. Optimisez sur la carte",
+        "desc": "Algorithme de tournées + drag & drop pour ajuster.",
+        "benefit": "Moins de km, plus de livraisons."
+      },
+      {
+        "title": "3. Partagez & suivez",
+        "desc": "Envoyez la feuille de route via WhatsApp. Suivi GPS live.",
+        "benefit": "Zéro appel, zéro stress."
+      }
+    ]
+  },
+  "features": {
+    "title": "Fonctionnalités clés",
+    "subtitle": "Tout ce qu'il faut pour planifier et suivre vos livraisons, sans complexité.",
+    "list": [
+      {
+        "title": "Optimisation automatique",
+        "desc": "Réduisez les kilomètres et le temps de trajet grâce à notre algorithme de tournées."
+      },
+      {
+        "title": "Carte interactive",
+        "desc": "Visualisez vos itinéraires sur OpenStreetMap. Géocodage intégré."
+      },
+      {
+        "title": "Drag & drop",
+        "desc": "Réorganisez la séquence et transférez des arrêts entre véhicules en un glisser."
+      },
+      {
+        "title": "Partage chauffeur",
+        "desc": "Envoyez la tournée via WhatsApp ou lien web. Aucune app à installer."
+      },
+      {
+        "title": "Suivi temps réel",
+        "desc": "Voyez l'avance ou le retard de chaque chauffeur en direct."
+      },
+      {
+        "title": "Feuilles de route PDF",
+        "desc": "Générez et imprimez les feuilles de route pour vos équipes terrain."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Connectivité simple, sans friction",
+    "subtitle": "Communiquez avec vos chauffeurs via les outils qu'ils utilisent déjà.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Partagez la tournée en 1 clic via WhatsApp Web ou mobile. Gratuit, sans API payante."
+      },
+      {
+        "title": "Lien web chauffeur",
+        "desc": "Le chauffeur ouvre un simple lien dans son navigateur. Pas d'app à installer."
+      },
+      {
+        "title": "Géolocalisation live",
+        "desc": "Position GPS partagée en temps réel avec permission du chauffeur. Basé sur OpenStreetMap."
+      },
+      {
+        "title": "Sécurité & RGPD",
+        "desc": "Données hébergées en Europe. Contrôle d'accès par entreprise. Géoloc uniquement avec consentement."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Un tarif simple, tout inclus",
+    "subtitle": "Pas de frais cachés, pas d'engagement. Payez uniquement pour vos véhicules actifs.",
+    "recommended": "Recommandé",
+    "plan": "Pro",
+    "price": "14,90 €",
+    "perVehicle": "/ véhicule / mois",
+    "vehicleCount": "Nombre de véhicules",
+    "perMonth": "/ mois",
+    "cta": "Démarrer l'essai",
+    "securePayment": "Paiement sécurisé via Stripe",
+    "included": [
+      "Optimisation de tournées",
+      "Carte interactive (OpenStreetMap)",
+      "Partage chauffeur (WhatsApp / lien)",
+      "Suivi temps réel",
+      "Feuilles de route PDF",
+      "Import CSV",
+      "Support par email"
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Est-ce qu'il faut une application chauffeur ?",
+        "a": "Non. Le chauffeur reçoit un simple lien web qu'il ouvre dans son navigateur (Chrome, Safari…). Pas d'app à télécharger, pas de compte à créer."
+      },
+      {
+        "q": "Le partage via WhatsApp est-il payant ?",
+        "a": "Non. RoutingBridge utilise le partage natif de WhatsApp (via lien web ou mobile). Il n'y a aucune API payante, aucun surcoût."
+      },
+      {
+        "q": "Peut-on importer depuis Excel ?",
+        "a": "Oui, via un export CSV depuis Excel. RoutingBridge accepte les fichiers CSV avec adresses ou coordonnées GPS."
+      },
+      {
+        "q": "Comment fonctionne la géolocalisation ?",
+        "a": "Quand le chauffeur ouvre son lien de tournée, il peut partager sa position GPS (avec sa permission). Vous voyez alors sa progression en temps réel sur la carte."
+      },
+      {
+        "q": "Peut-on annuler à tout moment ?",
+        "a": "Oui. L'abonnement est sans engagement. Vous pouvez annuler depuis votre espace client, et l'accès reste actif jusqu'à la fin du mois payé."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Accueil",
+    "privacy": "Politique de confidentialité",
+    "terms": "CGU",
+    "contact": "Contact",
+    "copyright": "© {{year}} RoutingBridge. Tous droits réservés."
+  }
+}

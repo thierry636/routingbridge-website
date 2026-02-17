@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Optimiza tus rutas en segundos",
+    "description": "RoutingBridge: planifica, optimiza y comparte tus rutas de entrega. Importación CSV, mapa interactivo, compartir con conductores vía WhatsApp, seguimiento en tiempo real. 14,90 €/vehículo/mes."
+  },
+  "header": {
+    "home": "RoutingBridge — Inicio",
+    "nav": {
+      "product": "Producto",
+      "features": "Funcionalidades",
+      "pricing": "Precios",
+      "faq": "FAQ"
+    },
+    "login": "Iniciar sesión",
+    "signup": "Empezar prueba",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "mainNav": "Navegación principal",
+    "mobileNav": "Navegación móvil"
+  },
+  "hero": {
+    "badge": "14,90 € / vehículo / mes · Cancela en cualquier momento",
+    "title": "Optimiza tus rutas en segundos.",
+    "description": "Importa tus pedidos, planifica en el mapa, comparte con los conductores vía WhatsApp, haz seguimiento en tiempo real.",
+    "cta": "Empezar prueba",
+    "demo": "Ver una demo",
+    "mockup": {
+      "optimizedRoute": "Ruta optimizada",
+      "routeStats": "3 paradas · 12,4 km · 28 min",
+      "status": "En curso"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "subtitle": "Tres pasos para pasar de tus pedidos a la entrega.",
+    "steps": [
+      {
+        "title": "1. Importa tus pedidos",
+        "desc": "Importación CSV o creación manual en pocos clics.",
+        "benefit": "Se acabó la entrada repetitiva de datos."
+      },
+      {
+        "title": "2. Optimiza en el mapa",
+        "desc": "Algoritmo de optimización de rutas + arrastrar y soltar para ajustar.",
+        "benefit": "Menos km, más entregas."
+      },
+      {
+        "title": "3. Comparte y haz seguimiento",
+        "desc": "Envía la hoja de ruta vía WhatsApp. Seguimiento GPS en vivo.",
+        "benefit": "Cero llamadas, cero estrés."
+      }
+    ]
+  },
+  "features": {
+    "title": "Funcionalidades clave",
+    "subtitle": "Todo lo que necesitas para planificar y hacer seguimiento de tus entregas, sin complejidad.",
+    "list": [
+      {
+        "title": "Optimización automática",
+        "desc": "Reduce los kilómetros y el tiempo de viaje gracias a nuestro algoritmo de rutas."
+      },
+      {
+        "title": "Mapa interactivo",
+        "desc": "Visualiza tus rutas en OpenStreetMap. Geocodificación integrada."
+      },
+      {
+        "title": "Arrastrar y soltar",
+        "desc": "Reorganiza la secuencia y transfiere paradas entre vehículos con un simple gesto."
+      },
+      {
+        "title": "Compartir con conductor",
+        "desc": "Envía la ruta vía WhatsApp o enlace web. Sin app que instalar."
+      },
+      {
+        "title": "Seguimiento en tiempo real",
+        "desc": "Mira el avance o retraso de cada conductor en directo."
+      },
+      {
+        "title": "Hojas de ruta PDF",
+        "desc": "Genera e imprime las hojas de ruta para tus equipos de campo."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Conectividad simple, sin fricción",
+    "subtitle": "Comunícate con tus conductores usando las herramientas que ya utilizan.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Comparte la ruta en 1 clic vía WhatsApp Web o móvil. Gratis, sin API de pago."
+      },
+      {
+        "title": "Enlace web para conductor",
+        "desc": "El conductor abre un simple enlace en su navegador. Sin app que instalar."
+      },
+      {
+        "title": "Geolocalización en vivo",
+        "desc": "Posición GPS compartida en tiempo real con permiso del conductor. Basado en OpenStreetMap."
+      },
+      {
+        "title": "Seguridad y RGPD",
+        "desc": "Datos alojados en Europa. Control de acceso por empresa. Geolocalización solo con consentimiento."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Precio simple, todo incluido",
+    "subtitle": "Sin costes ocultos, sin compromiso. Paga solo por tus vehículos activos.",
+    "recommended": "Recomendado",
+    "plan": "Pro",
+    "price": "14,90 €",
+    "perVehicle": "/ vehículo / mes",
+    "vehicleCount": "Número de vehículos",
+    "perMonth": "/ mes",
+    "cta": "Empezar prueba",
+    "securePayment": "Pago seguro vía Stripe",
+    "included": [
+      "Optimización de rutas",
+      "Mapa interactivo (OpenStreetMap)",
+      "Compartir con conductor (WhatsApp / enlace)",
+      "Seguimiento en tiempo real",
+      "Hojas de ruta PDF",
+      "Importación CSV",
+      "Soporte por email"
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Los conductores necesitan instalar una app?",
+        "a": "No. El conductor recibe un simple enlace web que abre en su navegador (Chrome, Safari…). Sin app que descargar, sin cuenta que crear."
+      },
+      {
+        "q": "¿Compartir vía WhatsApp es gratuito?",
+        "a": "Sí. RoutingBridge usa el sistema nativo de WhatsApp (vía enlace web o móvil). No hay API de pago ni coste adicional."
+      },
+      {
+        "q": "¿Se puede importar desde Excel?",
+        "a": "Sí, mediante una exportación CSV desde Excel. RoutingBridge acepta archivos CSV con direcciones o coordenadas GPS."
+      },
+      {
+        "q": "¿Cómo funciona la geolocalización?",
+        "a": "Cuando el conductor abre su enlace de ruta, puede compartir su posición GPS (con su permiso). Entonces ves su progreso en tiempo real en el mapa."
+      },
+      {
+        "q": "¿Se puede cancelar en cualquier momento?",
+        "a": "Sí. La suscripción es sin compromiso. Puedes cancelar desde tu panel de cliente, y el acceso permanece activo hasta el final del mes pagado."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Inicio",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "contact": "Contacto",
+    "copyright": "© {{year}} RoutingBridge. Todos los derechos reservados."
+  }
+}

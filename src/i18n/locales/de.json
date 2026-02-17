@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Optimieren Sie Ihre Touren in Sekunden",
+    "description": "RoutingBridge: Planen, optimieren und teilen Sie Ihre Liefertouren. CSV-Import, interaktive Karte, Fahrer-Sharing via WhatsApp, Echtzeit-Tracking. 14,90 €/Fahrzeug/Monat."
+  },
+  "header": {
+    "home": "RoutingBridge — Startseite",
+    "nav": {
+      "product": "Produkt",
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "faq": "FAQ"
+    },
+    "login": "Anmelden",
+    "signup": "Testphase starten",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "mainNav": "Hauptnavigation",
+    "mobileNav": "Mobile Navigation"
+  },
+  "hero": {
+    "badge": "14,90 € / Fahrzeug / Monat · Jederzeit kündbar",
+    "title": "Optimieren Sie Ihre Touren in Sekunden.",
+    "description": "Importieren Sie Ihre Aufträge, planen Sie auf der Karte, teilen Sie mit Fahrern via WhatsApp, verfolgen Sie in Echtzeit.",
+    "cta": "Testphase starten",
+    "demo": "Demo ansehen",
+    "mockup": {
+      "optimizedRoute": "Optimierte Tour",
+      "routeStats": "3 Stopps · 12,4 km · 28 Min.",
+      "status": "In Bearbeitung"
+    }
+  },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "subtitle": "Drei Schritte von Ihren Aufträgen zur Lieferung.",
+    "steps": [
+      {
+        "title": "1. Aufträge importieren",
+        "desc": "CSV-Import oder manuelle Erstellung in wenigen Klicks.",
+        "benefit": "Schluss mit wiederholter Dateneingabe."
+      },
+      {
+        "title": "2. Auf der Karte optimieren",
+        "desc": "Tourenoptimierungs-Algorithmus + Drag & Drop zum Anpassen.",
+        "benefit": "Weniger km, mehr Lieferungen."
+      },
+      {
+        "title": "3. Teilen & verfolgen",
+        "desc": "Senden Sie den Tourenplan via WhatsApp. Live-GPS-Tracking.",
+        "benefit": "Keine Anrufe, kein Stress."
+      }
+    ]
+  },
+  "features": {
+    "title": "Hauptfunktionen",
+    "subtitle": "Alles, was Sie brauchen, um Ihre Lieferungen zu planen und zu verfolgen – ohne Komplexität.",
+    "list": [
+      {
+        "title": "Automatische Optimierung",
+        "desc": "Reduzieren Sie Kilometer und Fahrzeit mit unserem Tourenoptimierungs-Algorithmus."
+      },
+      {
+        "title": "Interaktive Karte",
+        "desc": "Visualisieren Sie Ihre Routen auf OpenStreetMap. Integrierte Geocodierung."
+      },
+      {
+        "title": "Drag & Drop",
+        "desc": "Ordnen Sie die Reihenfolge neu und übertragen Sie Stopps zwischen Fahrzeugen per Drag & Drop."
+      },
+      {
+        "title": "Fahrer-Sharing",
+        "desc": "Senden Sie die Tour via WhatsApp oder Web-Link. Keine App-Installation nötig."
+      },
+      {
+        "title": "Echtzeit-Tracking",
+        "desc": "Sehen Sie den Fortschritt jedes Fahrers – Vorsprung oder Verspätung – in Echtzeit."
+      },
+      {
+        "title": "PDF-Tourenpläne",
+        "desc": "Erstellen und drucken Sie Tourenpläne für Ihre Außendienst-Teams."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Einfache Konnektivität, ohne Reibung",
+    "subtitle": "Kommunizieren Sie mit Ihren Fahrern über die Tools, die sie bereits nutzen.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Teilen Sie die Tour mit 1 Klick via WhatsApp Web oder Mobil. Kostenlos, keine kostenpflichtige API."
+      },
+      {
+        "title": "Fahrer-Web-Link",
+        "desc": "Der Fahrer öffnet einen einfachen Link in seinem Browser. Keine App-Installation nötig."
+      },
+      {
+        "title": "Live-Geolokalisierung",
+        "desc": "GPS-Position in Echtzeit geteilt mit Erlaubnis des Fahrers. Basierend auf OpenStreetMap."
+      },
+      {
+        "title": "Sicherheit & DSGVO",
+        "desc": "Daten in Europa gehostet. Zugriffskontrolle pro Unternehmen. Geolokalisierung nur mit Einwilligung."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Einfacher Tarif, alles inklusive",
+    "subtitle": "Keine versteckten Kosten, keine Bindung. Zahlen Sie nur für Ihre aktiven Fahrzeuge.",
+    "recommended": "Empfohlen",
+    "plan": "Pro",
+    "price": "14,90 €",
+    "perVehicle": "/ Fahrzeug / Monat",
+    "vehicleCount": "Anzahl der Fahrzeuge",
+    "perMonth": "/ Monat",
+    "cta": "Testphase starten",
+    "securePayment": "Sichere Zahlung über Stripe",
+    "included": [
+      "Tourenoptimierung",
+      "Interaktive Karte (OpenStreetMap)",
+      "Fahrer-Sharing (WhatsApp / Link)",
+      "Echtzeit-Tracking",
+      "PDF-Tourenpläne",
+      "CSV-Import",
+      "E-Mail-Support"
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Brauchen Fahrer eine App?",
+        "a": "Nein. Der Fahrer erhält einen einfachen Web-Link, den er in seinem Browser öffnet (Chrome, Safari…). Keine App zum Herunterladen, kein Konto zu erstellen."
+      },
+      {
+        "q": "Ist das Teilen über WhatsApp kostenlos?",
+        "a": "Ja. RoutingBridge nutzt das native WhatsApp-Sharing (via Web-Link oder Mobil). Es gibt keine kostenpflichtige API, keine Zusatzkosten."
+      },
+      {
+        "q": "Kann man aus Excel importieren?",
+        "a": "Ja, über einen CSV-Export aus Excel. RoutingBridge akzeptiert CSV-Dateien mit Adressen oder GPS-Koordinaten."
+      },
+      {
+        "q": "Wie funktioniert die Geolokalisierung?",
+        "a": "Wenn der Fahrer seinen Touren-Link öffnet, kann er seine GPS-Position teilen (mit seiner Erlaubnis). Sie sehen dann seinen Fortschritt in Echtzeit auf der Karte."
+      },
+      {
+        "q": "Kann man jederzeit kündigen?",
+        "a": "Ja. Das Abonnement ist ohne Bindung. Sie können aus Ihrem Kundenbereich kündigen, und der Zugang bleibt bis zum Ende des bezahlten Monats aktiv."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Startseite",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "AGB",
+    "contact": "Kontakt",
+    "copyright": "© {{year}} RoutingBridge. Alle Rechte vorbehalten."
+  }
+}

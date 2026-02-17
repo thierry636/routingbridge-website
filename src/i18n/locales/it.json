@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Ottimizza i tuoi giri in pochi secondi",
+    "description": "RoutingBridge: pianifica, ottimizza e condividi i tuoi giri di consegna. Importazione CSV, mappa interattiva, condivisione con autisti via WhatsApp, tracciamento in tempo reale. 14,90 €/veicolo/mese."
+  },
+  "header": {
+    "home": "RoutingBridge — Home",
+    "nav": {
+      "product": "Prodotto",
+      "features": "Funzionalità",
+      "pricing": "Prezzi",
+      "faq": "FAQ"
+    },
+    "login": "Accedi",
+    "signup": "Inizia la prova",
+    "menuOpen": "Apri menu",
+    "menuClose": "Chiudi menu",
+    "mainNav": "Navigazione principale",
+    "mobileNav": "Navigazione mobile"
+  },
+  "hero": {
+    "badge": "14,90 € / veicolo / mese · Cancella in qualsiasi momento",
+    "title": "Ottimizza i tuoi giri in pochi secondi.",
+    "description": "Importa i tuoi ordini, pianifica sulla mappa, condividi con gli autisti via WhatsApp, monitora in tempo reale.",
+    "cta": "Inizia la prova",
+    "demo": "Guarda una demo",
+    "mockup": {
+      "optimizedRoute": "Giro ottimizzato",
+      "routeStats": "3 fermate · 12,4 km · 28 min",
+      "status": "In corso"
+    }
+  },
+  "howItWorks": {
+    "title": "Come funziona",
+    "subtitle": "Tre passaggi dai tuoi ordini alla consegna.",
+    "steps": [
+      {
+        "title": "1. Importa i tuoi ordini",
+        "desc": "Importazione CSV o creazione manuale in pochi clic.",
+        "benefit": "Basta con l'inserimento ripetitivo."
+      },
+      {
+        "title": "2. Ottimizza sulla mappa",
+        "desc": "Algoritmo di ottimizzazione + drag & drop per regolare.",
+        "benefit": "Meno km, più consegne."
+      },
+      {
+        "title": "3. Condividi e monitora",
+        "desc": "Invia il foglio di viaggio via WhatsApp. Tracciamento GPS live.",
+        "benefit": "Zero chiamate, zero stress."
+      }
+    ]
+  },
+  "features": {
+    "title": "Funzionalità chiave",
+    "subtitle": "Tutto ciò che serve per pianificare e monitorare le tue consegne, senza complessità.",
+    "list": [
+      {
+        "title": "Ottimizzazione automatica",
+        "desc": "Riduci i chilometri e i tempi di percorrenza grazie al nostro algoritmo di ottimizzazione."
+      },
+      {
+        "title": "Mappa interattiva",
+        "desc": "Visualizza i tuoi itinerari su OpenStreetMap. Geocodifica integrata."
+      },
+      {
+        "title": "Drag & drop",
+        "desc": "Riorganizza la sequenza e trasferisci fermate tra veicoli con un semplice trascinamento."
+      },
+      {
+        "title": "Condivisione autista",
+        "desc": "Invia il giro via WhatsApp o link web. Nessuna app da installare."
+      },
+      {
+        "title": "Tracciamento in tempo reale",
+        "desc": "Vedi il progresso di ogni autista — in anticipo o in ritardo — in tempo reale."
+      },
+      {
+        "title": "Fogli di viaggio PDF",
+        "desc": "Genera e stampa i fogli di viaggio per i tuoi team sul campo."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Connettività semplice, senza frizioni",
+    "subtitle": "Comunica con i tuoi autisti usando gli strumenti che già utilizzano.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Condividi il giro in 1 clic via WhatsApp Web o mobile. Gratuito, senza API a pagamento."
+      },
+      {
+        "title": "Link web autista",
+        "desc": "L'autista apre un semplice link nel suo browser. Nessuna app da installare."
+      },
+      {
+        "title": "Geolocalizzazione live",
+        "desc": "Posizione GPS condivisa in tempo reale con il permesso dell'autista. Basato su OpenStreetMap."
+      },
+      {
+        "title": "Sicurezza e GDPR",
+        "desc": "Dati ospitati in Europa. Controllo accessi per azienda. Geolocalizzazione solo con consenso."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Prezzo semplice, tutto incluso",
+    "subtitle": "Nessun costo nascosto, nessun vincolo. Paga solo per i tuoi veicoli attivi.",
+    "recommended": "Consigliato",
+    "plan": "Pro",
+    "price": "14,90 €",
+    "perVehicle": "/ veicolo / mese",
+    "vehicleCount": "Numero di veicoli",
+    "perMonth": "/ mese",
+    "cta": "Inizia la prova",
+    "securePayment": "Pagamento sicuro via Stripe",
+    "included": [
+      "Ottimizzazione dei giri",
+      "Mappa interattiva (OpenStreetMap)",
+      "Condivisione autista (WhatsApp / link)",
+      "Tracciamento in tempo reale",
+      "Fogli di viaggio PDF",
+      "Importazione CSV",
+      "Supporto via email"
+    ]
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Gli autisti devono installare un'app?",
+        "a": "No. L'autista riceve un semplice link web che apre nel suo browser (Chrome, Safari…). Nessuna app da scaricare, nessun account da creare."
+      },
+      {
+        "q": "La condivisione via WhatsApp è gratuita?",
+        "a": "Sì. RoutingBridge utilizza la condivisione nativa di WhatsApp (via link web o mobile). Non c'è nessuna API a pagamento, nessun costo aggiuntivo."
+      },
+      {
+        "q": "Si può importare da Excel?",
+        "a": "Sì, tramite un export CSV da Excel. RoutingBridge accetta file CSV con indirizzi o coordinate GPS."
+      },
+      {
+        "q": "Come funziona la geolocalizzazione?",
+        "a": "Quando l'autista apre il suo link del giro, può condividere la sua posizione GPS (con il suo permesso). Vedrai poi il suo progresso in tempo reale sulla mappa."
+      },
+      {
+        "q": "Si può cancellare in qualsiasi momento?",
+        "a": "Sì. L'abbonamento è senza vincoli. Puoi cancellare dal tuo pannello cliente, e l'accesso resta attivo fino alla fine del mese pagato."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Home",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio",
+    "contact": "Contatti",
+    "copyright": "© {{year}} RoutingBridge. Tutti i diritti riservati."
+  }
+}

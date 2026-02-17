@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Optimalizujte své trasy za pár sekund",
+    "description": "RoutingBridge: plánujte, optimalizujte a sdílejte své doručovací trasy. Import CSV, interaktivní mapa, sdílení s řidiči přes WhatsApp, sledování v reálném čase. 14,90 €/vozidlo/měsíc."
+  },
+  "header": {
+    "home": "RoutingBridge — Domů",
+    "nav": {
+      "product": "Produkt",
+      "features": "Funkce",
+      "pricing": "Ceník",
+      "faq": "FAQ"
+    },
+    "login": "Přihlásit se",
+    "signup": "Začít zkušební období",
+    "menuOpen": "Otevřít menu",
+    "menuClose": "Zavřít menu",
+    "mainNav": "Hlavní navigace",
+    "mobileNav": "Mobilní navigace"
+  },
+  "hero": {
+    "badge": "14,90 € / vozidlo / měsíc · Zrušení kdykoli",
+    "title": "Optimalizujte své trasy za pár sekund.",
+    "description": "Importujte objednávky, plánujte na mapě, sdílejte s řidiči přes WhatsApp, sledujte v reálném čase.",
+    "cta": "Začít zkušební období",
+    "demo": "Podívat se na demo",
+    "mockup": {
+      "optimizedRoute": "Optimalizovaná trasa",
+      "routeStats": "3 zastávky · 12,4 km · 28 min",
+      "status": "Probíhá"
+    }
+  },
+  "howItWorks": {
+    "title": "Jak to funguje",
+    "subtitle": "Tři kroky od objednávek k doručení.",
+    "steps": [
+      {
+        "title": "1. Importujte objednávky",
+        "desc": "Import CSV nebo ruční vytvoření na pár kliknutí.",
+        "benefit": "Konec opakovanému zadávání dat."
+      },
+      {
+        "title": "2. Optimalizujte na mapě",
+        "desc": "Optimalizační algoritmus tras + drag & drop pro úpravy.",
+        "benefit": "Méně km, více doručení."
+      },
+      {
+        "title": "3. Sdílejte a sledujte",
+        "desc": "Odešlete plán trasy přes WhatsApp. Živé GPS sledování.",
+        "benefit": "Žádné hovory, žádný stres."
+      }
+    ]
+  },
+  "features": {
+    "title": "Klíčové funkce",
+    "subtitle": "Vše, co potřebujete k plánování a sledování doručení, bez složitosti.",
+    "list": [
+      {
+        "title": "Automatická optimalizace",
+        "desc": "Snižte kilometry a dobu jízdy díky našemu optimalizačnímu algoritmu."
+      },
+      {
+        "title": "Interaktivní mapa",
+        "desc": "Zobrazujte své trasy na OpenStreetMap. Integrované geokódování."
+      },
+      {
+        "title": "Drag & drop",
+        "desc": "Přeuspořádejte pořadí a přesouvejte zastávky mezi vozidly jednoduchým přetažením."
+      },
+      {
+        "title": "Sdílení s řidičem",
+        "desc": "Odešlete trasu přes WhatsApp nebo webový odkaz. Žádná aplikace k instalaci."
+      },
+      {
+        "title": "Sledování v reálném čase",
+        "desc": "Sledujte postup každého řidiče — v předstihu nebo se zpožděním — v reálném čase."
+      },
+      {
+        "title": "PDF plány tras",
+        "desc": "Generujte a tiskněte plány tras pro vaše terénní týmy."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Jednoduchá konektivita, bez překážek",
+    "subtitle": "Komunikujte s řidiči pomocí nástrojů, které již používají.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Sdílejte trasu jedním kliknutím přes WhatsApp Web nebo mobil. Zdarma, bez placené API."
+      },
+      {
+        "title": "Webový odkaz pro řidiče",
+        "desc": "Řidič otevře jednoduchý odkaz v prohlížeči. Žádná aplikace k instalaci."
+      },
+      {
+        "title": "Živá geolokace",
+        "desc": "GPS pozice sdílená v reálném čase se svolením řidiče. Založeno na OpenStreetMap."
+      },
+      {
+        "title": "Bezpečnost a GDPR",
+        "desc": "Data hostovaná v Evropě. Řízení přístupu na úrovni firmy. Geolokace pouze se souhlasem."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Jednoduchý ceník, vše v ceně",
+    "subtitle": "Žádné skryté poplatky, žádné závazky. Plaťte pouze za aktivní vozidla.",
+    "recommended": "Doporučeno",
+    "plan": "Pro",
+    "price": "14,90 €",
+    "perVehicle": "/ vozidlo / měsíc",
+    "vehicleCount": "Počet vozidel",
+    "perMonth": "/ měsíc",
+    "cta": "Začít zkušební období",
+    "securePayment": "Bezpečná platba přes Stripe",
+    "included": [
+      "Optimalizace tras",
+      "Interaktivní mapa (OpenStreetMap)",
+      "Sdílení s řidičem (WhatsApp / odkaz)",
+      "Sledování v reálném čase",
+      "PDF plány tras",
+      "Import CSV",
+      "E-mailová podpora"
+    ]
+  },
+  "faq": {
+    "title": "Často kladené otázky",
+    "items": [
+      {
+        "q": "Potřebují řidiči instalovat aplikaci?",
+        "a": "Ne. Řidič obdrží jednoduchý webový odkaz, který otevře v prohlížeči (Chrome, Safari…). Žádná aplikace ke stažení, žádný účet k vytvoření."
+      },
+      {
+        "q": "Je sdílení přes WhatsApp zdarma?",
+        "a": "Ano. RoutingBridge využívá nativní sdílení WhatsApp (přes webový odkaz nebo mobil). Neexistuje žádné placené API ani příplatky."
+      },
+      {
+        "q": "Lze importovat z Excelu?",
+        "a": "Ano, prostřednictvím CSV exportu z Excelu. RoutingBridge přijímá CSV soubory s adresami nebo GPS souřadnicemi."
+      },
+      {
+        "q": "Jak funguje geolokace?",
+        "a": "Když řidič otevře odkaz na svou trasu, může sdílet svou GPS pozici (se svým svolením). Poté uvidíte jeho postup v reálném čase na mapě."
+      },
+      {
+        "q": "Lze kdykoli zrušit?",
+        "a": "Ano. Předplatné je bez závazků. Můžete zrušit z klientského panelu a přístup zůstane aktivní do konce zaplaceného měsíce."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Domů",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Obchodní podmínky",
+    "contact": "Kontakt",
+    "copyright": "© {{year}} RoutingBridge. Všechna práva vyhrazena."
+  }
+}
