@@ -79,7 +79,7 @@ export default function Pricing() {
             </ul>
 
             <a
-              href="/app/signup"
+              href="https://app.routing-bridge.com/register"
               className="mt-8 flex w-full items-center justify-center gap-2 rounded-lg bg-primary-600 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
             >
               {t('pricing.cta')}

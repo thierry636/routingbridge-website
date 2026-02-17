@@ -29,7 +29,7 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="/app/signup"
+                href="https://app.routing-bridge.com/register"
                 className="inline-flex items-center gap-2 rounded-lg bg-primary-600 px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
               >
                 {t('hero.cta')}
