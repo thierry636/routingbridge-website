@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Optimize your routes in seconds",
+    "description": "RoutingBridge: plan, optimize and share your delivery routes. CSV import, interactive map, driver sharing via WhatsApp, real-time tracking. €14.90/vehicle/month."
+  },
+  "header": {
+    "home": "RoutingBridge — Home",
+    "nav": {
+      "product": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "faq": "FAQ"
+    },
+    "login": "Log in",
+    "signup": "Start free trial",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation"
+  },
+  "hero": {
+    "badge": "€14.90 / vehicle / month · Cancel anytime",
+    "title": "Optimize your routes in seconds.",
+    "description": "Import your orders, plan on the map, share with drivers via WhatsApp, track in real time.",
+    "cta": "Start free trial",
+    "demo": "Watch a demo",
+    "mockup": {
+      "optimizedRoute": "Optimized route",
+      "routeStats": "3 stops · 12.4 km · 28 min",
+      "status": "In progress"
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "Three steps from your orders to delivery.",
+    "steps": [
+      {
+        "title": "1. Import your orders",
+        "desc": "CSV import or manual creation in a few clicks.",
+        "benefit": "No more repetitive data entry."
+      },
+      {
+        "title": "2. Optimize on the map",
+        "desc": "Route optimization algorithm + drag & drop to adjust.",
+        "benefit": "Fewer km, more deliveries."
+      },
+      {
+        "title": "3. Share & track",
+        "desc": "Send the route sheet via WhatsApp. Live GPS tracking.",
+        "benefit": "Zero calls, zero stress."
+      }
+    ]
+  },
+  "features": {
+    "title": "Key features",
+    "subtitle": "Everything you need to plan and track your deliveries, without complexity.",
+    "list": [
+      {
+        "title": "Automatic optimization",
+        "desc": "Reduce kilometers and travel time with our route optimization algorithm."
+      },
+      {
+        "title": "Interactive map",
+        "desc": "Visualize your routes on OpenStreetMap. Built-in geocoding."
+      },
+      {
+        "title": "Drag & drop",
+        "desc": "Rearrange the sequence and transfer stops between vehicles with a simple drag."
+      },
+      {
+        "title": "Driver sharing",
+        "desc": "Send the route via WhatsApp or web link. No app to install."
+      },
+      {
+        "title": "Real-time tracking",
+        "desc": "See each driver's progress — ahead or behind schedule — in real time."
+      },
+      {
+        "title": "PDF route sheets",
+        "desc": "Generate and print route sheets for your field teams."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Simple connectivity, zero friction",
+    "subtitle": "Communicate with your drivers using the tools they already use.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Share the route in 1 click via WhatsApp Web or mobile. Free, no paid API."
+      },
+      {
+        "title": "Driver web link",
+        "desc": "The driver opens a simple link in their browser. No app to install."
+      },
+      {
+        "title": "Live geolocation",
+        "desc": "GPS position shared in real time with driver permission. Based on OpenStreetMap."
+      },
+      {
+        "title": "Security & GDPR",
+        "desc": "Data hosted in Europe. Company-level access control. Geolocation only with consent."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple pricing, all inclusive",
+    "subtitle": "No hidden fees, no commitment. Only pay for your active vehicles.",
+    "recommended": "Recommended",
+    "plan": "Pro",
+    "price": "€14.90",
+    "perVehicle": "/ vehicle / month",
+    "vehicleCount": "Number of vehicles",
+    "perMonth": "/ month",
+    "cta": "Start free trial",
+    "securePayment": "Secure payment via Stripe",
+    "included": [
+      "Route optimization",
+      "Interactive map (OpenStreetMap)",
+      "Driver sharing (WhatsApp / link)",
+      "Real-time tracking",
+      "PDF route sheets",
+      "CSV import",
+      "Email support"
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Do drivers need to install an app?",
+        "a": "No. The driver receives a simple web link that they open in their browser (Chrome, Safari…). No app to download, no account to create."
+      },
+      {
+        "q": "Is sharing via WhatsApp free?",
+        "a": "Yes. RoutingBridge uses native WhatsApp sharing (via web link or mobile). There is no paid API, no extra cost."
+      },
+      {
+        "q": "Can I import from Excel?",
+        "a": "Yes, via a CSV export from Excel. RoutingBridge accepts CSV files with addresses or GPS coordinates."
+      },
+      {
+        "q": "How does geolocation work?",
+        "a": "When the driver opens their route link, they can share their GPS position (with their permission). You then see their progress in real time on the map."
+      },
+      {
+        "q": "Can I cancel at any time?",
+        "a": "Yes. The subscription has no commitment. You can cancel from your account dashboard, and access remains active until the end of the paid month."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Home",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "contact": "Contact",
+    "copyright": "© {{year}} RoutingBridge. All rights reserved."
+  }
+}

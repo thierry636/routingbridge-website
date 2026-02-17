@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Optimalizálja útvonalait másodpercek alatt",
+    "description": "RoutingBridge: tervezze meg, optimalizálja és ossza meg kézbesítési útvonalait. CSV import, interaktív térkép, megosztás sofőrökkel WhatsApp-on, valós idejű nyomon követés. 14,90 €/jármű/hónap."
+  },
+  "header": {
+    "home": "RoutingBridge — Főoldal",
+    "nav": {
+      "product": "Termék",
+      "features": "Funkciók",
+      "pricing": "Árazás",
+      "faq": "GYIK"
+    },
+    "login": "Bejelentkezés",
+    "signup": "Próbaidőszak indítása",
+    "menuOpen": "Menü megnyitása",
+    "menuClose": "Menü bezárása",
+    "mainNav": "Fő navigáció",
+    "mobileNav": "Mobil navigáció"
+  },
+  "hero": {
+    "badge": "14,90 € / jármű / hónap · Bármikor lemondható",
+    "title": "Optimalizálja útvonalait másodpercek alatt.",
+    "description": "Importálja rendeléseit, tervezzen a térképen, ossza meg sofőrjeivel WhatsApp-on, kövesse valós időben.",
+    "cta": "Próbaidőszak indítása",
+    "demo": "Demó megtekintése",
+    "mockup": {
+      "optimizedRoute": "Optimalizált útvonal",
+      "routeStats": "3 megálló · 12,4 km · 28 perc",
+      "status": "Folyamatban"
+    }
+  },
+  "howItWorks": {
+    "title": "Hogyan működik",
+    "subtitle": "Három lépés a rendelésektől a kézbesítésig.",
+    "steps": [
+      {
+        "title": "1. Importálja rendeléseit",
+        "desc": "CSV import vagy kézi létrehozás néhány kattintással.",
+        "benefit": "Vége az ismétlődő adatbevitelnek."
+      },
+      {
+        "title": "2. Optimalizáljon a térképen",
+        "desc": "Útvonal-optimalizáló algoritmus + húzd és ejtsd az igazításhoz.",
+        "benefit": "Kevesebb km, több kézbesítés."
+      },
+      {
+        "title": "3. Ossza meg és kövesse",
+        "desc": "Küldje el az útvonaltervet WhatsApp-on. Élő GPS nyomon követés.",
+        "benefit": "Nulla hívás, nulla stressz."
+      }
+    ]
+  },
+  "features": {
+    "title": "Fő funkciók",
+    "subtitle": "Minden, amire szüksége van a kézbesítések tervezéséhez és nyomon követéséhez, bonyodalmak nélkül.",
+    "list": [
+      {
+        "title": "Automatikus optimalizálás",
+        "desc": "Csökkentse a kilométereket és az utazási időt útvonal-optimalizáló algoritmusunkkal."
+      },
+      {
+        "title": "Interaktív térkép",
+        "desc": "Jelenítse meg útvonalait az OpenStreetMap-en. Beépített geokódolás."
+      },
+      {
+        "title": "Húzd és ejtsd",
+        "desc": "Rendezze át a sorrendet és helyezze át a megállókat járművek között egyszerű húzással."
+      },
+      {
+        "title": "Sofőr megosztás",
+        "desc": "Küldje el az útvonalat WhatsApp-on vagy webes linkkel. Nincs szükség alkalmazás telepítésére."
+      },
+      {
+        "title": "Valós idejű nyomon követés",
+        "desc": "Lássa minden sofőr haladását — időben vagy késve — valós időben."
+      },
+      {
+        "title": "PDF útvonaltervek",
+        "desc": "Készítsen és nyomtasson útvonalterveket terepi csapatainak."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Egyszerű kapcsolódás, súrlódás nélkül",
+    "subtitle": "Kommunikáljon sofőrjeivel azokkal az eszközökkel, amelyeket már használnak.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Ossza meg az útvonalat 1 kattintással WhatsApp Weben vagy mobilon. Ingyenes, fizetős API nélkül."
+      },
+      {
+        "title": "Sofőr webes link",
+        "desc": "A sofőr egy egyszerű linket nyit meg a böngészőjében. Nincs szükség alkalmazás telepítésére."
+      },
+      {
+        "title": "Élő geolokáció",
+        "desc": "GPS pozíció valós időben megosztva a sofőr engedélyével. OpenStreetMap alapú."
+      },
+      {
+        "title": "Biztonság és GDPR",
+        "desc": "Európában tárolt adatok. Vállalati szintű hozzáférés-vezérlés. Geolokáció csak beleegyezéssel."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Egyszerű árazás, minden benne van",
+    "subtitle": "Nincsenek rejtett díjak, nincs elköteleződés. Csak az aktív járművekért fizet.",
+    "recommended": "Ajánlott",
+    "plan": "Pro",
+    "price": "14,90 €",
+    "perVehicle": "/ jármű / hónap",
+    "vehicleCount": "Járművek száma",
+    "perMonth": "/ hónap",
+    "cta": "Próbaidőszak indítása",
+    "securePayment": "Biztonságos fizetés Stripe-on keresztül",
+    "included": [
+      "Útvonal-optimalizálás",
+      "Interaktív térkép (OpenStreetMap)",
+      "Sofőr megosztás (WhatsApp / link)",
+      "Valós idejű nyomon követés",
+      "PDF útvonaltervek",
+      "CSV import",
+      "E-mail támogatás"
+    ]
+  },
+  "faq": {
+    "title": "Gyakran ismételt kérdések",
+    "items": [
+      {
+        "q": "Kell a sofőröknek alkalmazást telepíteniük?",
+        "a": "Nem. A sofőr egy egyszerű webes linket kap, amelyet a böngészőjében nyit meg (Chrome, Safari…). Nincs letöltendő alkalmazás, nincs fiók létrehozása."
+      },
+      {
+        "q": "Ingyenes a megosztás WhatsApp-on?",
+        "a": "Igen. A RoutingBridge a WhatsApp natív megosztását használja (webes linken vagy mobilon keresztül). Nincs fizetős API, nincsenek többletköltségek."
+      },
+      {
+        "q": "Lehet Excelből importálni?",
+        "a": "Igen, CSV exporttal az Excelből. A RoutingBridge elfogad CSV fájlokat címekkel vagy GPS koordinátákkal."
+      },
+      {
+        "q": "Hogyan működik a geolokáció?",
+        "a": "Amikor a sofőr megnyitja az útvonal linkjét, megoszthatja GPS pozícióját (az engedélyével). Ezután valós időben láthatja haladását a térképen."
+      },
+      {
+        "q": "Bármikor lemondható?",
+        "a": "Igen. Az előfizetés elköteleződés nélküli. Az ügyfélpanelről mondhatja le, és a hozzáférés a kifizetett hónap végéig aktív marad."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Főoldal",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Általános szerződési feltételek",
+    "contact": "Kapcsolat",
+    "copyright": "© {{year}} RoutingBridge. Minden jog fenntartva."
+  }
+}

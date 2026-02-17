@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Zoptymalizuj swoje trasy w kilka sekund",
+    "description": "RoutingBridge: planuj, optymalizuj i udostępniaj trasy dostaw. Import CSV, interaktywna mapa, udostępnianie kierowcom przez WhatsApp, śledzenie w czasie rzeczywistym. 14,90 €/pojazd/miesiąc."
+  },
+  "header": {
+    "home": "RoutingBridge — Strona główna",
+    "nav": {
+      "product": "Produkt",
+      "features": "Funkcje",
+      "pricing": "Cennik",
+      "faq": "FAQ"
+    },
+    "login": "Zaloguj się",
+    "signup": "Rozpocznij okres próbny",
+    "menuOpen": "Otwórz menu",
+    "menuClose": "Zamknij menu",
+    "mainNav": "Nawigacja główna",
+    "mobileNav": "Nawigacja mobilna"
+  },
+  "hero": {
+    "badge": "14,90 € / pojazd / miesiąc · Anuluj w dowolnym momencie",
+    "title": "Zoptymalizuj swoje trasy w kilka sekund.",
+    "description": "Importuj zamówienia, planuj na mapie, udostępniaj kierowcom przez WhatsApp, śledź w czasie rzeczywistym.",
+    "cta": "Rozpocznij okres próbny",
+    "demo": "Zobacz demo",
+    "mockup": {
+      "optimizedRoute": "Zoptymalizowana trasa",
+      "routeStats": "3 przystanki · 12,4 km · 28 min",
+      "status": "W trakcie"
+    }
+  },
+  "howItWorks": {
+    "title": "Jak to działa",
+    "subtitle": "Trzy kroki od zamówień do dostawy.",
+    "steps": [
+      {
+        "title": "1. Importuj zamówienia",
+        "desc": "Import CSV lub ręczne tworzenie w kilka kliknięć.",
+        "benefit": "Koniec z powtarzalnym wprowadzaniem danych."
+      },
+      {
+        "title": "2. Optymalizuj na mapie",
+        "desc": "Algorytm optymalizacji tras + przeciągnij i upuść, aby dostosować.",
+        "benefit": "Mniej km, więcej dostaw."
+      },
+      {
+        "title": "3. Udostępnij i śledź",
+        "desc": "Wyślij arkusz trasy przez WhatsApp. Śledzenie GPS na żywo.",
+        "benefit": "Zero telefonów, zero stresu."
+      }
+    ]
+  },
+  "features": {
+    "title": "Kluczowe funkcje",
+    "subtitle": "Wszystko, czego potrzebujesz do planowania i śledzenia dostaw, bez komplikacji.",
+    "list": [
+      {
+        "title": "Automatyczna optymalizacja",
+        "desc": "Zmniejsz kilometry i czas przejazdu dzięki naszemu algorytmowi optymalizacji tras."
+      },
+      {
+        "title": "Interaktywna mapa",
+        "desc": "Wizualizuj swoje trasy na OpenStreetMap. Wbudowane geokodowanie."
+      },
+      {
+        "title": "Przeciągnij i upuść",
+        "desc": "Zmień kolejność i przenoś przystanki między pojazdami jednym gestem."
+      },
+      {
+        "title": "Udostępnianie kierowcom",
+        "desc": "Wyślij trasę przez WhatsApp lub link web. Żadnej aplikacji do instalacji."
+      },
+      {
+        "title": "Śledzenie w czasie rzeczywistym",
+        "desc": "Zobacz postęp każdego kierowcy — przed czy za harmonogramem — w czasie rzeczywistym."
+      },
+      {
+        "title": "Arkusze tras PDF",
+        "desc": "Generuj i drukuj arkusze tras dla zespołów terenowych."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Prosta łączność, bez tarcia",
+    "subtitle": "Komunikuj się z kierowcami za pomocą narzędzi, których już używają.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Udostępnij trasę jednym kliknięciem przez WhatsApp Web lub mobile. Za darmo, bez płatnego API."
+      },
+      {
+        "title": "Link web dla kierowcy",
+        "desc": "Kierowca otwiera prosty link w przeglądarce. Żadnej aplikacji do instalacji."
+      },
+      {
+        "title": "Geolokalizacja na żywo",
+        "desc": "Pozycja GPS udostępniana w czasie rzeczywistym za zgodą kierowcy. Oparte na OpenStreetMap."
+      },
+      {
+        "title": "Bezpieczeństwo i RODO",
+        "desc": "Dane hostowane w Europie. Kontrola dostępu na poziomie firmy. Geolokalizacja tylko za zgodą."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Prosty cennik, wszystko w cenie",
+    "subtitle": "Bez ukrytych opłat, bez zobowiązań. Płać tylko za aktywne pojazdy.",
+    "recommended": "Polecany",
+    "plan": "Pro",
+    "price": "14,90 €",
+    "perVehicle": "/ pojazd / miesiąc",
+    "vehicleCount": "Liczba pojazdów",
+    "perMonth": "/ miesiąc",
+    "cta": "Rozpocznij okres próbny",
+    "securePayment": "Bezpieczna płatność przez Stripe",
+    "included": [
+      "Optymalizacja tras",
+      "Interaktywna mapa (OpenStreetMap)",
+      "Udostępnianie kierowcom (WhatsApp / link)",
+      "Śledzenie w czasie rzeczywistym",
+      "Arkusze tras PDF",
+      "Import CSV",
+      "Wsparcie e-mail"
+    ]
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "items": [
+      {
+        "q": "Czy kierowcy muszą instalować aplikację?",
+        "a": "Nie. Kierowca otrzymuje prosty link web, który otwiera w przeglądarce (Chrome, Safari…). Żadnej aplikacji do pobrania, żadnego konta do tworzenia."
+      },
+      {
+        "q": "Czy udostępnianie przez WhatsApp jest bezpłatne?",
+        "a": "Tak. RoutingBridge korzysta z natywnego udostępniania WhatsApp (przez link web lub mobile). Nie ma płatnego API ani dodatkowych kosztów."
+      },
+      {
+        "q": "Czy można importować z Excela?",
+        "a": "Tak, przez eksport CSV z Excela. RoutingBridge akceptuje pliki CSV z adresami lub współrzędnymi GPS."
+      },
+      {
+        "q": "Jak działa geolokalizacja?",
+        "a": "Gdy kierowca otworzy link do trasy, może udostępnić swoją pozycję GPS (za swoją zgodą). Widzisz wtedy jego postęp w czasie rzeczywistym na mapie."
+      },
+      {
+        "q": "Czy mogę anulować w dowolnym momencie?",
+        "a": "Tak. Subskrypcja jest bez zobowiązań. Możesz anulować z panelu klienta, a dostęp pozostaje aktywny do końca opłaconego miesiąca."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Strona główna",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "contact": "Kontakt",
+    "copyright": "© {{year}} RoutingBridge. Wszelkie prawa zastrzeżone."
+  }
+}

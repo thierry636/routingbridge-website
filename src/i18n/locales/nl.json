@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "RoutingBridge — Optimaliseer uw routes in seconden",
+    "description": "RoutingBridge: plan, optimaliseer en deel uw leveringsroutes. CSV-import, interactieve kaart, chauffeur-deling via WhatsApp, realtime tracking. € 14,90/voertuig/maand."
+  },
+  "header": {
+    "home": "RoutingBridge — Home",
+    "nav": {
+      "product": "Product",
+      "features": "Functies",
+      "pricing": "Prijzen",
+      "faq": "FAQ"
+    },
+    "login": "Inloggen",
+    "signup": "Proefperiode starten",
+    "menuOpen": "Menu openen",
+    "menuClose": "Menu sluiten",
+    "mainNav": "Hoofdnavigatie",
+    "mobileNav": "Mobiele navigatie"
+  },
+  "hero": {
+    "badge": "€ 14,90 / voertuig / maand · Op elk moment opzegbaar",
+    "title": "Optimaliseer uw routes in seconden.",
+    "description": "Importeer uw orders, plan op de kaart, deel met chauffeurs via WhatsApp, volg in realtime.",
+    "cta": "Proefperiode starten",
+    "demo": "Demo bekijken",
+    "mockup": {
+      "optimizedRoute": "Geoptimaliseerde route",
+      "routeStats": "3 stops · 12,4 km · 28 min",
+      "status": "Bezig"
+    }
+  },
+  "howItWorks": {
+    "title": "Hoe het werkt",
+    "subtitle": "Drie stappen van uw orders naar de levering.",
+    "steps": [
+      {
+        "title": "1. Importeer uw orders",
+        "desc": "CSV-import of handmatige aanmaak in een paar klikken.",
+        "benefit": "Gedaan met herhaalde gegevensinvoer."
+      },
+      {
+        "title": "2. Optimaliseer op de kaart",
+        "desc": "Route-optimalisatie-algoritme + drag & drop om aan te passen.",
+        "benefit": "Minder km, meer leveringen."
+      },
+      {
+        "title": "3. Deel & volg",
+        "desc": "Stuur het routeblad via WhatsApp. Live GPS-tracking.",
+        "benefit": "Geen telefoontjes, geen stress."
+      }
+    ]
+  },
+  "features": {
+    "title": "Belangrijkste functies",
+    "subtitle": "Alles wat u nodig heeft om uw leveringen te plannen en te volgen, zonder complexiteit.",
+    "list": [
+      {
+        "title": "Automatische optimalisatie",
+        "desc": "Verminder kilometers en reistijd met ons route-optimalisatie-algoritme."
+      },
+      {
+        "title": "Interactieve kaart",
+        "desc": "Bekijk uw routes op OpenStreetMap. Ingebouwde geocodering."
+      },
+      {
+        "title": "Drag & drop",
+        "desc": "Herorden de volgorde en verplaats stops tussen voertuigen met een simpele sleep."
+      },
+      {
+        "title": "Chauffeur-deling",
+        "desc": "Stuur de route via WhatsApp of weblink. Geen app om te installeren."
+      },
+      {
+        "title": "Realtime tracking",
+        "desc": "Zie de voortgang van elke chauffeur — voor of achter op schema — in realtime."
+      },
+      {
+        "title": "PDF-routebladen",
+        "desc": "Genereer en print routebladen voor uw buitendienstteams."
+      }
+    ]
+  },
+  "connectivity": {
+    "title": "Eenvoudige connectiviteit, zonder wrijving",
+    "subtitle": "Communiceer met uw chauffeurs via de tools die ze al gebruiken.",
+    "items": [
+      {
+        "title": "WhatsApp",
+        "desc": "Deel de route met 1 klik via WhatsApp Web of mobiel. Gratis, geen betaalde API."
+      },
+      {
+        "title": "Chauffeur-weblink",
+        "desc": "De chauffeur opent een simpele link in zijn browser. Geen app om te installeren."
+      },
+      {
+        "title": "Live geolocatie",
+        "desc": "GPS-positie in realtime gedeeld met toestemming van de chauffeur. Gebaseerd op OpenStreetMap."
+      },
+      {
+        "title": "Beveiliging & AVG",
+        "desc": "Gegevens gehost in Europa. Toegangscontrole per bedrijf. Geolocatie alleen met toestemming."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Eenvoudig tarief, alles inbegrepen",
+    "subtitle": "Geen verborgen kosten, geen binding. Betaal alleen voor uw actieve voertuigen.",
+    "recommended": "Aanbevolen",
+    "plan": "Pro",
+    "price": "€ 14,90",
+    "perVehicle": "/ voertuig / maand",
+    "vehicleCount": "Aantal voertuigen",
+    "perMonth": "/ maand",
+    "cta": "Proefperiode starten",
+    "securePayment": "Veilige betaling via Stripe",
+    "included": [
+      "Route-optimalisatie",
+      "Interactieve kaart (OpenStreetMap)",
+      "Chauffeur-deling (WhatsApp / link)",
+      "Realtime tracking",
+      "PDF-routebladen",
+      "CSV-import",
+      "E-mailondersteuning"
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Moeten chauffeurs een app installeren?",
+        "a": "Nee. De chauffeur ontvangt een simpele weblink die hij opent in zijn browser (Chrome, Safari…). Geen app om te downloaden, geen account om aan te maken."
+      },
+      {
+        "q": "Is delen via WhatsApp gratis?",
+        "a": "Ja. RoutingBridge gebruikt de native WhatsApp-deling (via weblink of mobiel). Er is geen betaalde API, geen extra kosten."
+      },
+      {
+        "q": "Kan ik importeren vanuit Excel?",
+        "a": "Ja, via een CSV-export vanuit Excel. RoutingBridge accepteert CSV-bestanden met adressen of GPS-coördinaten."
+      },
+      {
+        "q": "Hoe werkt de geolocatie?",
+        "a": "Wanneer de chauffeur zijn routelink opent, kan hij zijn GPS-positie delen (met zijn toestemming). U ziet dan zijn voortgang in realtime op de kaart."
+      },
+      {
+        "q": "Kan ik op elk moment opzeggen?",
+        "a": "Ja. Het abonnement is zonder binding. U kunt opzeggen vanuit uw klantenpaneel, en de toegang blijft actief tot het einde van de betaalde maand."
+      }
+    ]
+  },
+  "footer": {
+    "home": "RoutingBridge — Home",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden",
+    "contact": "Contact",
+    "copyright": "© {{year}} RoutingBridge. Alle rechten voorbehouden."
+  }
+}

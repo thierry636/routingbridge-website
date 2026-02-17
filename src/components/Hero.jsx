@@ -1,7 +1,10 @@
+import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import { ArrowRight, Play, MapPin, Truck, Navigation } from 'lucide-react'
 
 export default function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-primary-50/60 to-white pb-16 pt-12 sm:pb-24 sm:pt-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -13,15 +16,15 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <span className="inline-flex items-center gap-1.5 rounded-full border border-primary-200 bg-primary-50 px-3 py-1 text-xs font-semibold text-primary-700">
-              14,90&nbsp;€ / véhicule / mois &middot; Annulable à tout moment
+              {t('hero.badge')}
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl lg:text-[3.5rem]">
-              Optimisez vos tournées en quelques secondes.
+              {t('hero.title')}
             </h1>
 
             <p className="mt-5 max-w-lg text-lg leading-relaxed text-gray-600">
-              Importez vos ordres, planifiez sur la carte, partagez aux chauffeurs via WhatsApp, suivez en temps réel.
+              {t('hero.description')}
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -29,7 +32,7 @@ export default function Hero() {
                 href="/app/signup"
                 className="inline-flex items-center gap-2 rounded-lg bg-primary-600 px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
               >
-                Démarrer l'essai
+                {t('hero.cta')}
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </a>
               <a
@@ -37,7 +40,7 @@ export default function Hero() {
                 className="inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
               >
                 <Play className="h-4 w-4" aria-hidden="true" />
-                Voir une démo
+                {t('hero.demo')}
               </a>
             </div>
           </motion.div>
@@ -89,10 +92,10 @@ export default function Hero() {
                     <Truck className="h-4 w-4 text-primary-600" />
                   </div>
                   <div className="flex-1">
-                    <div className="text-xs font-semibold text-gray-900">Tournée optimisée</div>
-                    <div className="text-xs text-gray-500">3 arrêts &middot; 12,4 km &middot; 28 min</div>
+                    <div className="text-xs font-semibold text-gray-900">{t('hero.mockup.optimizedRoute')}</div>
+                    <div className="text-xs text-gray-500">{t('hero.mockup.routeStats')}</div>
                   </div>
-                  <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">En cours</span>
+                  <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">{t('hero.mockup.status')}</span>
                 </div>
               </div>
             </div>
