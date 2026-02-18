@@ -121,8 +121,18 @@
       "Realtime tracking",
       "PDF-routebladen",
       "CSV-import",
-      "E-mailondersteuning"
+      "Ondersteuning via contactformulier"
     ]
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "subtitle": "Heeft u een vraag? Vul het formulier in en we nemen snel contact met u op.",
+    "name": "Naam",
+    "email": "E-mailadres",
+    "message": "Uw bericht",
+    "submit": "Verzenden",
+    "success": "Bedankt! Uw bericht is verzonden.",
+    "error": "Er is een fout opgetreden. Probeer het opnieuw."
   },
   "faq": {
     "title": "Veelgestelde vragen",

@@ -121,8 +121,18 @@
       "Valós idejű nyomon követés",
       "PDF útvonaltervek",
       "CSV import",
-      "E-mail támogatás"
+      "Támogatás kapcsolatfelvételi űrlapon"
     ]
+  },
+  "contact": {
+    "title": "Lépjen kapcsolatba velünk",
+    "subtitle": "Kérdése van? Töltse ki az űrlapot, és hamarosan válaszolunk.",
+    "name": "Név",
+    "email": "E-mail cím",
+    "message": "Üzenete",
+    "submit": "Küldés",
+    "success": "Köszönjük! Üzenete elküldve.",
+    "error": "Hiba történt. Kérjük, próbálja újra."
   },
   "faq": {
     "title": "Gyakran ismételt kérdések",

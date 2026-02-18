@@ -121,8 +121,18 @@
       "Echtzeit-Tracking",
       "PDF-Tourenpläne",
       "CSV-Import",
-      "E-Mail-Support"
+      "Support über Kontaktformular"
     ]
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie eine Frage? Füllen Sie das Formular aus und wir melden uns bei Ihnen.",
+    "name": "Name",
+    "email": "E-Mail-Adresse",
+    "message": "Ihre Nachricht",
+    "submit": "Senden",
+    "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
   },
   "faq": {
     "title": "Häufig gestellte Fragen",

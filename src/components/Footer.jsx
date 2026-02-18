@@ -18,7 +18,7 @@ export default function Footer() {
           <nav className="flex flex-wrap justify-center gap-6 text-sm text-gray-500" aria-label={t('footer.privacy')}>
             <a href="/privacy" className="transition hover:text-gray-700">{t('footer.privacy')}</a>
             <a href="/terms" className="transition hover:text-gray-700">{t('footer.terms')}</a>
-            <a href="mailto:contact@routingbridge.com" className="transition hover:text-gray-700">{t('footer.contact')}</a>
+            <a href="#contact" className="transition hover:text-gray-700">{t('footer.contact')}</a>
           </nav>
         </div>
 

@@ -121,8 +121,18 @@
       "Seguimiento en tiempo real",
       "Hojas de ruta PDF",
       "Importación CSV",
-      "Soporte por email"
+      "Soporte vía formulario"
     ]
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "¿Tiene una pregunta? Complete el formulario y le responderemos a la brevedad.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Su mensaje",
+    "submit": "Enviar",
+    "success": "¡Gracias! Su mensaje ha sido enviado.",
+    "error": "Se produjo un error. Inténtelo de nuevo."
   },
   "faq": {
     "title": "Preguntas frecuentes",
