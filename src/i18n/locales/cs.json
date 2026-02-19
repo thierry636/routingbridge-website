@@ -121,8 +121,18 @@
       "Sledování v reálném čase",
       "PDF plány tras",
       "Import CSV",
-      "E-mailová podpora"
+      "Podpora přes kontaktní formulář"
     ]
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Máte dotaz? Vyplňte formulář a ozveme se vám co nejdříve.",
+    "name": "Jméno",
+    "email": "E-mailová adresa",
+    "message": "Vaše zpráva",
+    "submit": "Odeslat",
+    "success": "Děkujeme! Vaše zpráva byla odeslána.",
+    "error": "Došlo k chybě. Zkuste to prosím znovu."
   },
   "faq": {
     "title": "Často kladené otázky",

@@ -121,8 +121,18 @@
       "Suivi temps réel",
       "Feuilles de route PDF",
       "Import CSV",
-      "Support par email"
+      "Support via formulaire"
     ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Remplissez le formulaire, nous vous répondrons rapidement.",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "message": "Votre message",
+    "submit": "Envoyer",
+    "success": "Merci ! Votre message a bien été envoyé.",
+    "error": "Une erreur est survenue. Veuillez réessayer."
   },
   "faq": {
     "title": "Questions fréquentes",

@@ -121,8 +121,18 @@
       "Śledzenie w czasie rzeczywistym",
       "Arkusze tras PDF",
       "Import CSV",
-      "Wsparcie e-mail"
+      "Wsparcie przez formularz kontaktowy"
     ]
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Masz pytanie? Wypełnij formularz, a my odpowiemy jak najszybciej.",
+    "name": "Imię i nazwisko",
+    "email": "Adres e-mail",
+    "message": "Twoja wiadomość",
+    "submit": "Wyślij",
+    "success": "Dziękujemy! Twoja wiadomość została wysłana.",
+    "error": "Wystąpił błąd. Spróbuj ponownie."
   },
   "faq": {
     "title": "Często zadawane pytania",

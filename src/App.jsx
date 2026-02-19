@@ -5,6 +5,7 @@ import Features from './components/Features'
 import Connectivity from './components/Connectivity'
 import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
+import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Connectivity />
         <Pricing />
         <FAQ />
+        <ContactForm />
       </main>
       <Footer />
     </div>

@@ -121,8 +121,18 @@
       "Real-time tracking",
       "PDF route sheets",
       "CSV import",
-      "Email support"
+      "Support via contact form"
     ]
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Have a question? Fill out the form and we'll get back to you shortly.",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Your message",
+    "submit": "Send",
+    "success": "Thank you! Your message has been sent.",
+    "error": "An error occurred. Please try again."
   },
   "faq": {
     "title": "Frequently asked questions",

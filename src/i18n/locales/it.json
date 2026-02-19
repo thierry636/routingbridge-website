@@ -121,8 +121,18 @@
       "Tracciamento in tempo reale",
       "Fogli di viaggio PDF",
       "Importazione CSV",
-      "Supporto via email"
+      "Supporto via modulo di contatto"
     ]
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Hai una domanda? Compila il modulo e ti risponderemo al più presto.",
+    "name": "Nome",
+    "email": "Indirizzo e-mail",
+    "message": "Il tuo messaggio",
+    "submit": "Invia",
+    "success": "Grazie! Il tuo messaggio è stato inviato.",
+    "error": "Si è verificato un errore. Riprova."
   },
   "faq": {
     "title": "Domande frequenti",
