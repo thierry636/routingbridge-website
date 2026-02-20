@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Optimisez vos tournées en quelques secondes",
-    "description": "RoutingBridge : planifiez, optimisez et partagez vos tournées de livraison. Import CSV, carte interactive, partage chauffeur via WhatsApp, suivi temps réel. 14,90 €/véhicule/mois."
+    "description": "RoutingBridge : planifiez, optimisez et partagez vos tournées de livraison. Import CSV, carte interactive, partage chauffeur via WhatsApp, suivi temps réel. À partir de 11,90 €/camion/mois."
   },
   "header": {
     "home": "RoutingBridge — Accueil",
@@ -19,7 +19,7 @@
     "mobileNav": "Navigation mobile"
   },
   "hero": {
-    "badge": "14,90 € / véhicule / mois · Annulable à tout moment",
+    "badge": "À partir de 11,90 € / camion / mois · Annulable à tout moment",
     "title": "Optimisez vos tournées en quelques secondes.",
     "description": "Importez vos ordres, planifiez sur la carte, partagez aux chauffeurs via WhatsApp, suivez en temps réel.",
     "cta": "Démarrer l'essai",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Un tarif simple, tout inclus",
-    "subtitle": "Pas de frais cachés, pas d'engagement. Payez uniquement pour vos véhicules actifs.",
+    "title": "Tarif dégressif, tout inclus",
+    "subtitle": "Pas de frais cachés, pas d'engagement. Payez uniquement pour vos camions actifs.",
     "recommended": "Recommandé",
     "plan": "Pro",
-    "price": "14,90 €",
-    "perVehicle": "/ véhicule / mois",
-    "vehicleCount": "Nombre de véhicules",
+    "price": "À partir de 11,90 €",
+    "perVehicle": "/ camion / mois",
+    "truckCount": "Nombre de camions",
     "perMonth": "/ mois",
+    "perTruck": "/ camion",
     "cta": "Démarrer l'essai",
+    "whatsappCta": "Nous contacter via WhatsApp",
     "securePayment": "Paiement sécurisé via Stripe",
+    "tieredNote": "Tarif dégressif automatique selon le nombre de camions.",
+    "noCommitment": "Sans engagement. Annulation en 1 clic.",
     "included": [
       "Optimisation de tournées",
       "Carte interactive (OpenStreetMap)",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Zoptymalizuj swoje trasy w kilka sekund",
-    "description": "RoutingBridge: planuj, optymalizuj i udostępniaj trasy dostaw. Import CSV, interaktywna mapa, udostępnianie kierowcom przez WhatsApp, śledzenie w czasie rzeczywistym. 14,90 €/pojazd/miesiąc."
+    "description": "RoutingBridge: planuj, optymalizuj i udostępniaj trasy dostaw. Import CSV, interaktywna mapa, udostępnianie kierowcom przez WhatsApp, śledzenie w czasie rzeczywistym. Od 11,90 €/ciężarówka/miesiąc."
   },
   "header": {
     "home": "RoutingBridge — Strona główna",
@@ -19,7 +19,7 @@
     "mobileNav": "Nawigacja mobilna"
   },
   "hero": {
-    "badge": "14,90 € / pojazd / miesiąc · Anuluj w dowolnym momencie",
+    "badge": "Od 11,90 € / ciężarówka / miesiąc · Anuluj w dowolnym momencie",
     "title": "Zoptymalizuj swoje trasy w kilka sekund.",
     "description": "Importuj zamówienia, planuj na mapie, udostępniaj kierowcom przez WhatsApp, śledź w czasie rzeczywistym.",
     "cta": "Rozpocznij okres próbny",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Prosty cennik, wszystko w cenie",
-    "subtitle": "Bez ukrytych opłat, bez zobowiązań. Płać tylko za aktywne pojazdy.",
+    "title": "Cennik degresywny, wszystko w cenie",
+    "subtitle": "Bez ukrytych opłat, bez zobowiązań. Płać tylko za aktywne ciężarówki.",
     "recommended": "Polecany",
     "plan": "Pro",
-    "price": "14,90 €",
-    "perVehicle": "/ pojazd / miesiąc",
-    "vehicleCount": "Liczba pojazdów",
+    "price": "Od 11,90 €",
+    "perVehicle": "/ ciężarówka / miesiąc",
+    "truckCount": "Liczba ciężarówek",
     "perMonth": "/ miesiąc",
+    "perTruck": "/ ciężarówka",
     "cta": "Rozpocznij okres próbny",
+    "whatsappCta": "Skontaktuj się przez WhatsApp",
     "securePayment": "Bezpieczna płatność przez Stripe",
+    "tieredNote": "Automatyczny rabat ilościowy w zależności od wielkości floty.",
+    "noCommitment": "Bez zobowiązań. Anulowanie w 1 klik.",
     "included": [
       "Optymalizacja tras",
       "Interaktywna mapa (OpenStreetMap)",

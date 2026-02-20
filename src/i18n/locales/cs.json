@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Optimalizujte své trasy za pár sekund",
-    "description": "RoutingBridge: plánujte, optimalizujte a sdílejte své doručovací trasy. Import CSV, interaktivní mapa, sdílení s řidiči přes WhatsApp, sledování v reálném čase. 14,90 €/vozidlo/měsíc."
+    "description": "RoutingBridge: plánujte, optimalizujte a sdílejte své doručovací trasy. Import CSV, interaktivní mapa, sdílení s řidiči přes WhatsApp, sledování v reálném čase. Od 11,90 €/kamion/měsíc."
   },
   "header": {
     "home": "RoutingBridge — Domů",
@@ -19,7 +19,7 @@
     "mobileNav": "Mobilní navigace"
   },
   "hero": {
-    "badge": "14,90 € / vozidlo / měsíc · Zrušení kdykoli",
+    "badge": "Od 11,90 € / kamion / měsíc · Zrušení kdykoli",
     "title": "Optimalizujte své trasy za pár sekund.",
     "description": "Importujte objednávky, plánujte na mapě, sdílejte s řidiči přes WhatsApp, sledujte v reálném čase.",
     "cta": "Začít zkušební období",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Jednoduchý ceník, vše v ceně",
-    "subtitle": "Žádné skryté poplatky, žádné závazky. Plaťte pouze za aktivní vozidla.",
+    "title": "Objemové ceny, vše v ceně",
+    "subtitle": "Žádné skryté poplatky, žádné závazky. Plaťte pouze za aktivní kamiony.",
     "recommended": "Doporučeno",
     "plan": "Pro",
-    "price": "14,90 €",
-    "perVehicle": "/ vozidlo / měsíc",
-    "vehicleCount": "Počet vozidel",
+    "price": "Od 11,90 €",
+    "perVehicle": "/ kamion / měsíc",
+    "truckCount": "Počet kamionů",
     "perMonth": "/ měsíc",
+    "perTruck": "/ kamion",
     "cta": "Začít zkušební období",
+    "whatsappCta": "Kontaktujte nás přes WhatsApp",
     "securePayment": "Bezpečná platba přes Stripe",
+    "tieredNote": "Automatická objemová sleva podle velikosti flotily.",
+    "noCommitment": "Bez závazků. Zrušení jedním kliknutím.",
     "included": [
       "Optimalizace tras",
       "Interaktivní mapa (OpenStreetMap)",

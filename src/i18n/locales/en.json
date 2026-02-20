@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Optimize your routes in seconds",
-    "description": "RoutingBridge: plan, optimize and share your delivery routes. CSV import, interactive map, driver sharing via WhatsApp, real-time tracking. €14.90/vehicle/month."
+    "description": "RoutingBridge: plan, optimize and share your delivery routes. CSV import, interactive map, driver sharing via WhatsApp, real-time tracking. From €11.90/truck/month."
   },
   "header": {
     "home": "RoutingBridge — Home",
@@ -19,7 +19,7 @@
     "mobileNav": "Mobile navigation"
   },
   "hero": {
-    "badge": "€14.90 / vehicle / month · Cancel anytime",
+    "badge": "From €11.90 / truck / month · Cancel anytime",
     "title": "Optimize your routes in seconds.",
     "description": "Import your orders, plan on the map, share with drivers via WhatsApp, track in real time.",
     "cta": "Start free trial",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Simple pricing, all inclusive",
-    "subtitle": "No hidden fees, no commitment. Only pay for your active vehicles.",
+    "title": "Volume pricing, all inclusive",
+    "subtitle": "No hidden fees, no commitment. Only pay for your active trucks.",
     "recommended": "Recommended",
     "plan": "Pro",
-    "price": "€14.90",
-    "perVehicle": "/ vehicle / month",
-    "vehicleCount": "Number of vehicles",
+    "price": "From €11.90",
+    "perVehicle": "/ truck / month",
+    "truckCount": "Number of trucks",
     "perMonth": "/ month",
+    "perTruck": "/ truck",
     "cta": "Start free trial",
+    "whatsappCta": "Contact us via WhatsApp",
     "securePayment": "Secure payment via Stripe",
+    "tieredNote": "Automatic volume discount based on fleet size.",
+    "noCommitment": "No commitment. Cancel in 1 click.",
     "included": [
       "Route optimization",
       "Interactive map (OpenStreetMap)",

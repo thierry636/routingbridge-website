@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Optimalizálja útvonalait másodpercek alatt",
-    "description": "RoutingBridge: tervezze meg, optimalizálja és ossza meg kézbesítési útvonalait. CSV import, interaktív térkép, megosztás sofőrökkel WhatsApp-on, valós idejű nyomon követés. 14,90 €/jármű/hónap."
+    "description": "RoutingBridge: tervezze meg, optimalizálja és ossza meg kézbesítési útvonalait. CSV import, interaktív térkép, megosztás sofőrökkel WhatsApp-on, valós idejű nyomon követés. 11,90 €-tól/teherautó/hónap."
   },
   "header": {
     "home": "RoutingBridge — Főoldal",
@@ -19,7 +19,7 @@
     "mobileNav": "Mobil navigáció"
   },
   "hero": {
-    "badge": "14,90 € / jármű / hónap · Bármikor lemondható",
+    "badge": "11,90 €-tól / teherautó / hónap · Bármikor lemondható",
     "title": "Optimalizálja útvonalait másodpercek alatt.",
     "description": "Importálja rendeléseit, tervezzen a térképen, ossza meg sofőrjeivel WhatsApp-on, kövesse valós időben.",
     "cta": "Próbaidőszak indítása",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Egyszerű árazás, minden benne van",
-    "subtitle": "Nincsenek rejtett díjak, nincs elköteleződés. Csak az aktív járművekért fizet.",
+    "title": "Mennyiségi árazás, minden benne van",
+    "subtitle": "Nincsenek rejtett díjak, nincs elköteleződés. Csak az aktív teherautókért fizet.",
     "recommended": "Ajánlott",
     "plan": "Pro",
-    "price": "14,90 €",
-    "perVehicle": "/ jármű / hónap",
-    "vehicleCount": "Járművek száma",
+    "price": "11,90 €-tól",
+    "perVehicle": "/ teherautó / hónap",
+    "truckCount": "Teherautók száma",
     "perMonth": "/ hónap",
+    "perTruck": "/ teherautó",
     "cta": "Próbaidőszak indítása",
+    "whatsappCta": "Lépjen kapcsolatba velünk WhatsApp-on",
     "securePayment": "Biztonságos fizetés Stripe-on keresztül",
+    "tieredNote": "Automatikus mennyiségi kedvezmény a flotta mérete alapján.",
+    "noCommitment": "Elköteleződés nélkül. Lemondás 1 kattintással.",
     "included": [
       "Útvonal-optimalizálás",
       "Interaktív térkép (OpenStreetMap)",
