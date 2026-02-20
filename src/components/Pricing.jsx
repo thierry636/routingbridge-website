@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { Check, CreditCard, MessageCircle } from 'lucide-react'
-import { PRICING_TIERS, WHATSAPP_NUMBER, getUnitPrice, formatCurrency } from '../config'
+import { Check, CreditCard } from 'lucide-react'
+import { PRICING_TIERS, getUnitPrice, formatCurrency } from '../config'
 
 export default function Pricing() {
   const { t, i18n } = useTranslation()
@@ -12,11 +12,6 @@ export default function Pricing() {
   const unitPrice = getUnitPrice(trucks)
   const total = formatCurrency(trucks * unitPrice, i18n.language)
   const unitFormatted = formatCurrency(unitPrice, i18n.language)
-
-  const whatsappMessage = encodeURIComponent(
-    `Bonjour, je veux tester FleetConnect pour ${trucks} camions. Quel est le tarif ?`
-  )
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`
 
   return (
     <section id="tarifs" className="bg-gray-50 py-20 sm:py-28">
@@ -124,17 +119,6 @@ export default function Pricing() {
               className="mt-8 flex w-full items-center justify-center gap-2 rounded-lg bg-primary-600 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
             >
               {t('pricing.cta')}
-            </a>
-
-            {/* CTA — WhatsApp */}
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 flex w-full items-center justify-center gap-2 rounded-lg border border-emerald-300 bg-emerald-50 py-3 text-sm font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500"
-            >
-              <MessageCircle className="h-4 w-4" aria-hidden="true" />
-              {t('pricing.whatsappCta')}
             </a>
 
             <p className="mt-4 flex items-center justify-center gap-1.5 text-xs text-gray-500">
