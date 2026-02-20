@@ -1,20 +1,22 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { Check, CreditCard } from 'lucide-react'
-
-const PRICE = 14.9
+import { Check, CreditCard, MessageCircle } from 'lucide-react'
+import { PRICING_TIERS, WHATSAPP_NUMBER, getUnitPrice, formatCurrency } from '../config'
 
 export default function Pricing() {
   const { t, i18n } = useTranslation()
-  const [vehicles, setVehicles] = useState(5)
+  const [trucks, setTrucks] = useState(5)
   const included = t('pricing.included', { returnObjects: true })
 
-  const total = new Intl.NumberFormat(i18n.language, {
-    style: 'currency',
-    currency: 'EUR',
-    minimumFractionDigits: 2,
-  }).format(vehicles * PRICE)
+  const unitPrice = getUnitPrice(trucks)
+  const total = formatCurrency(trucks * unitPrice, i18n.language)
+  const unitFormatted = formatCurrency(unitPrice, i18n.language)
+
+  const whatsappMessage = encodeURIComponent(
+    `Bonjour, je veux tester FleetConnect pour ${trucks} camions. Quel est le tarif ?`
+  )
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`
 
   return (
     <section id="tarifs" className="bg-gray-50 py-20 sm:py-28">
@@ -33,7 +35,7 @@ export default function Pricing() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.45 }}
-          className="mx-auto mt-14 max-w-md"
+          className="mx-auto mt-14 max-w-lg"
         >
           <div className="rounded-2xl border-2 border-primary-600 bg-white p-8 shadow-lg">
             <div className="text-center">
@@ -47,26 +49,64 @@ export default function Pricing() {
               </div>
             </div>
 
+            {/* Tiers grid */}
+            <div className="mt-6 grid grid-cols-5 gap-1.5 text-center text-xs">
+              {PRICING_TIERS.map((tier) => {
+                const isActive = trucks >= tier.min && trucks <= tier.max
+                return (
+                  <div
+                    key={tier.min}
+                    className={`rounded-lg px-1.5 py-2 transition-colors ${
+                      isActive
+                        ? 'bg-primary-600 text-white shadow-md ring-2 ring-primary-300'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    }`}
+                  >
+                    <div className="font-bold leading-tight">
+                      {formatCurrency(tier.price, i18n.language)}
+                    </div>
+                    <div className={`mt-0.5 leading-tight ${isActive ? 'text-primary-100' : 'text-gray-400'}`}>
+                      {tier.max === 200 ? `${tier.min}+` : `${tier.min}–${tier.max}`}
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+
             {/* Calculator */}
-            <div className="mt-8 rounded-xl bg-gray-50 p-4">
+            <div className="mt-6 rounded-xl bg-gray-50 p-4">
               <label htmlFor="vehicle-slider" className="block text-sm font-medium text-gray-700">
-                {t('pricing.vehicleCount')} : <span className="font-bold text-primary-600">{vehicles}</span>
+                {t('pricing.truckCount')} : <span className="font-bold text-primary-600">{trucks}</span>
               </label>
               <input
                 id="vehicle-slider"
                 type="range"
                 min={1}
-                max={50}
-                value={vehicles}
-                onChange={(e) => setVehicles(Number(e.target.value))}
+                max={200}
+                value={trucks}
+                onChange={(e) => setTrucks(Number(e.target.value))}
                 className="mt-2 w-full accent-primary-600"
               />
-              <div className="mt-2 flex items-baseline justify-between text-sm">
+              <div className="mt-1 flex items-baseline justify-between text-sm">
                 <span className="text-gray-500">1</span>
-                <span className="text-lg font-bold text-gray-900">{total}<span className="text-sm font-normal text-gray-500"> {t('pricing.perMonth')}</span></span>
-                <span className="text-gray-500">50</span>
+                <div className="text-center">
+                  <span className="text-lg font-bold text-gray-900">{total}</span>
+                  <span className="text-sm font-normal text-gray-500"> {t('pricing.perMonth')}</span>
+                  <div className="text-xs text-gray-400">
+                    {unitFormatted} {t('pricing.perTruck')}
+                  </div>
+                </div>
+                <span className="text-gray-500">200</span>
               </div>
             </div>
+
+            {/* Micro-lines */}
+            <p className="mt-4 text-center text-xs text-gray-500">
+              {t('pricing.tieredNote')}
+            </p>
+            <p className="mt-1 text-center text-xs text-gray-500">
+              {t('pricing.noCommitment')}
+            </p>
 
             {/* Features */}
             <ul className="mt-6 space-y-3">
@@ -78,11 +118,23 @@ export default function Pricing() {
               ))}
             </ul>
 
+            {/* CTA — register */}
             <a
               href="https://app.routing-bridge.com/register"
               className="mt-8 flex w-full items-center justify-center gap-2 rounded-lg bg-primary-600 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
             >
               {t('pricing.cta')}
+            </a>
+
+            {/* CTA — WhatsApp */}
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 flex w-full items-center justify-center gap-2 rounded-lg border border-emerald-300 bg-emerald-50 py-3 text-sm font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500"
+            >
+              <MessageCircle className="h-4 w-4" aria-hidden="true" />
+              {t('pricing.whatsappCta')}
             </a>
 
             <p className="mt-4 flex items-center justify-center gap-1.5 text-xs text-gray-500">

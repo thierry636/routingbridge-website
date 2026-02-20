@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Optimiza tus rutas en segundos",
-    "description": "RoutingBridge: planifica, optimiza y comparte tus rutas de entrega. Importación CSV, mapa interactivo, compartir con conductores vía WhatsApp, seguimiento en tiempo real. 14,90 €/vehículo/mes."
+    "description": "RoutingBridge: planifica, optimiza y comparte tus rutas de entrega. Importación CSV, mapa interactivo, compartir con conductores vía WhatsApp, seguimiento en tiempo real. Desde 11,90 €/camión/mes."
   },
   "header": {
     "home": "RoutingBridge — Inicio",
@@ -19,7 +19,7 @@
     "mobileNav": "Navegación móvil"
   },
   "hero": {
-    "badge": "14,90 € / vehículo / mes · Cancela en cualquier momento",
+    "badge": "Desde 11,90 € / camión / mes · Cancela en cualquier momento",
     "title": "Optimiza tus rutas en segundos.",
     "description": "Importa tus pedidos, planifica en el mapa, comparte con los conductores vía WhatsApp, haz seguimiento en tiempo real.",
     "cta": "Empezar prueba",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Precio simple, todo incluido",
-    "subtitle": "Sin costes ocultos, sin compromiso. Paga solo por tus vehículos activos.",
+    "title": "Precio por volumen, todo incluido",
+    "subtitle": "Sin costes ocultos, sin compromiso. Paga solo por tus camiones activos.",
     "recommended": "Recomendado",
     "plan": "Pro",
-    "price": "14,90 €",
-    "perVehicle": "/ vehículo / mes",
-    "vehicleCount": "Número de vehículos",
+    "price": "Desde 11,90 €",
+    "perVehicle": "/ camión / mes",
+    "truckCount": "Número de camiones",
     "perMonth": "/ mes",
+    "perTruck": "/ camión",
     "cta": "Empezar prueba",
+    "whatsappCta": "Contáctenos vía WhatsApp",
     "securePayment": "Pago seguro vía Stripe",
+    "tieredNote": "Descuento automático por volumen según el tamaño de la flota.",
+    "noCommitment": "Sin compromiso. Cancelación en 1 clic.",
     "included": [
       "Optimización de rutas",
       "Mapa interactivo (OpenStreetMap)",

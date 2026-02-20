@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Ottimizza i tuoi giri in pochi secondi",
-    "description": "RoutingBridge: pianifica, ottimizza e condividi i tuoi giri di consegna. Importazione CSV, mappa interattiva, condivisione con autisti via WhatsApp, tracciamento in tempo reale. 14,90 €/veicolo/mese."
+    "description": "RoutingBridge: pianifica, ottimizza e condividi i tuoi giri di consegna. Importazione CSV, mappa interattiva, condivisione con autisti via WhatsApp, tracciamento in tempo reale. A partire da 11,90 €/camion/mese."
   },
   "header": {
     "home": "RoutingBridge — Home",
@@ -19,7 +19,7 @@
     "mobileNav": "Navigazione mobile"
   },
   "hero": {
-    "badge": "14,90 € / veicolo / mese · Cancella in qualsiasi momento",
+    "badge": "A partire da 11,90 € / camion / mese · Cancella in qualsiasi momento",
     "title": "Ottimizza i tuoi giri in pochi secondi.",
     "description": "Importa i tuoi ordini, pianifica sulla mappa, condividi con gli autisti via WhatsApp, monitora in tempo reale.",
     "cta": "Inizia la prova",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Prezzo semplice, tutto incluso",
-    "subtitle": "Nessun costo nascosto, nessun vincolo. Paga solo per i tuoi veicoli attivi.",
+    "title": "Prezzo a volume, tutto incluso",
+    "subtitle": "Nessun costo nascosto, nessun vincolo. Paga solo per i tuoi camion attivi.",
     "recommended": "Consigliato",
     "plan": "Pro",
-    "price": "14,90 €",
-    "perVehicle": "/ veicolo / mese",
-    "vehicleCount": "Numero di veicoli",
+    "price": "A partire da 11,90 €",
+    "perVehicle": "/ camion / mese",
+    "truckCount": "Numero di camion",
     "perMonth": "/ mese",
+    "perTruck": "/ camion",
     "cta": "Inizia la prova",
+    "whatsappCta": "Contattaci via WhatsApp",
     "securePayment": "Pagamento sicuro via Stripe",
+    "tieredNote": "Sconto automatico per volume in base alla dimensione della flotta.",
+    "noCommitment": "Senza vincoli. Cancellazione in 1 clic.",
     "included": [
       "Ottimizzazione dei giri",
       "Mappa interattiva (OpenStreetMap)",

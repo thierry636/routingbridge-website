@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "RoutingBridge — Optimieren Sie Ihre Touren in Sekunden",
-    "description": "RoutingBridge: Planen, optimieren und teilen Sie Ihre Liefertouren. CSV-Import, interaktive Karte, Fahrer-Sharing via WhatsApp, Echtzeit-Tracking. 14,90 €/Fahrzeug/Monat."
+    "description": "RoutingBridge: Planen, optimieren und teilen Sie Ihre Liefertouren. CSV-Import, interaktive Karte, Fahrer-Sharing via WhatsApp, Echtzeit-Tracking. Ab 11,90 €/LKW/Monat."
   },
   "header": {
     "home": "RoutingBridge — Startseite",
@@ -19,7 +19,7 @@
     "mobileNav": "Mobile Navigation"
   },
   "hero": {
-    "badge": "14,90 € / Fahrzeug / Monat · Jederzeit kündbar",
+    "badge": "Ab 11,90 € / LKW / Monat · Jederzeit kündbar",
     "title": "Optimieren Sie Ihre Touren in Sekunden.",
     "description": "Importieren Sie Ihre Aufträge, planen Sie auf der Karte, teilen Sie mit Fahrern via WhatsApp, verfolgen Sie in Echtzeit.",
     "cta": "Testphase starten",
@@ -104,16 +104,20 @@
     ]
   },
   "pricing": {
-    "title": "Einfacher Tarif, alles inklusive",
-    "subtitle": "Keine versteckten Kosten, keine Bindung. Zahlen Sie nur für Ihre aktiven Fahrzeuge.",
+    "title": "Staffelpreise, alles inklusive",
+    "subtitle": "Keine versteckten Kosten, keine Bindung. Zahlen Sie nur für Ihre aktiven LKW.",
     "recommended": "Empfohlen",
     "plan": "Pro",
-    "price": "14,90 €",
-    "perVehicle": "/ Fahrzeug / Monat",
-    "vehicleCount": "Anzahl der Fahrzeuge",
+    "price": "Ab 11,90 €",
+    "perVehicle": "/ LKW / Monat",
+    "truckCount": "Anzahl der LKW",
     "perMonth": "/ Monat",
+    "perTruck": "/ LKW",
     "cta": "Testphase starten",
+    "whatsappCta": "Kontaktieren Sie uns über WhatsApp",
     "securePayment": "Sichere Zahlung über Stripe",
+    "tieredNote": "Automatischer Mengenrabatt je nach Flottengröße.",
+    "noCommitment": "Ohne Bindung. Kündigung mit 1 Klick.",
     "included": [
       "Tourenoptimierung",
       "Interaktive Karte (OpenStreetMap)",
